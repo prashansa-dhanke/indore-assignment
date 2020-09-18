@@ -15,7 +15,7 @@ const Screen = ({ children }) => {
                     contentContainerStyle={{ flexGrow: 1 }}
                     // this prop/condition will allow button to be submitted when keyboard is open
                     keyboardShouldPersistTaps="handled">
-                    <View style={{...theme.defaultBackround, alignItems: 'center'}}>
+                    <View style={{...theme.defaultBackround, padding: 20}}>
                         {children}
                     </View>
                 </ScrollView>
